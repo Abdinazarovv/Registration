@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    display: swap;
+    src:url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+    url('../fonts/poppins-v20-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    display: swap;
+    src:url('../fonts/poppins-v20-latin-700.woff2') format('woff2'),
+    url('../fonts/poppins-v20-latin-700.woff') format('woff');
+}
+
 body {
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     font-family: 'Poppins', sans-serif;
@@ -13,6 +31,8 @@ body {
 }
 
 #form h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: #0f2027;
     text-align: center;
 }
